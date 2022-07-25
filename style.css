@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: "Orbitron";
+  }
+  .navbar-container {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 40vw;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .list :first-child {
+    position: relative;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+  
+  .list :first-child::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    bottom: -1px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 60%;
+    background: black;
+  }
+  .button-group {
+    font-style: "Poppins";
+    display: flex;
+    justify-content: space-around;
+  }
+  .search-icon svg {
+    height: 1.2em;
+    padding: 0.3em 0.2em;
+  }
+  .nav-button {
+    border: 2px solid black;
+    padding: 0.4em 1.8em;
+    font-size: 1em;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  .hero-container {
+    position: relative;
+    display: flex;
+  }
+  .square,
+  .star,
+  .globe,
+  img[alt="person-hero-iamge"] {
+    position: relative;
+  }
+  .square {
+    top: 14.2em;
+    left: 12em;
+    height: fit-content;
+  }
+  .square img {
+    width: 70%;
+  }
+  .star img {
+    width: 50%;
+  }
+  .star {
+    top: 28em;
+    left: 9em;
+    height: fit-content;
+  }
+  .star::after {
+    content: url(./assets/start.png);
+    position: absolute;
+    top: -27em;
+    right: -40em;
+  }
+  .globe {
+    left: 9em;
+    height: fit-content;
+  }
+  img[alt="person-hero-iamge"] {
+    height: 27em;
+    top: 2.2em;
+    left: -31em;
+  }
+  .hero-container-right {
+    padding: 2em;
+    position: absolute;
+    height: fit-content;
+    width: 60vw;
+    right: 2em;
+    top: 5.5em;
+  }
+  .hero-heading {
+    text-align: center;
+    font-size: 3.7em;
+  }
+  .hero-description {
+    font-family: "Poppins";
+    font-size: 1em;
+    width: 48vw;
+    text-align: center;
+    margin: 3em auto 2em auto;
+  }
+  .button-email {
+    font-family: "Orbitron";
+    border: 1px solid black;
+    padding: 0.2em 1.8em;
+    font-size: 1em;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  .button-join {
+    font-family: "Orbitron";
+    border: 1px solid black;
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    border-radius: 10px;
+    background-color: black;
+    color: #ffffff;
+  }
+  .hero-container-right > div {
+    width: fit-content;
+    margin: 2em auto 0 auto;
+  }
+  .contact-heading {
+    text-transform: capitalize;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .icons {
+    letter-spacing: 1em;
+  }
