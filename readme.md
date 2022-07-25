@@ -1,11 +1,6 @@
 # UI-Project-1
 This project is a part of Full stack Web development by Ineuron
 
-## Project Preview
+In this project I have learned about CSS Positioning and flex
 
-![Project Preview](./thumbnail.png)
-
-
-## In this project I have learned about CSS Positioning and flex
-
-## 
+It took me 5-6 hours with lots of stack overflow and google to complete
